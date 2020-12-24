@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>The Sufi Path of Healing - 6th - 8th March 2020, Markfield, Leicester,
-      UK</title>
+    <title></title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -20,58 +19,12 @@
     <!-- Custom styles for this template -->
     <link href="/css/grayscale.css" rel="stylesheet">
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-      // this is the id of the form
-      $("#registration-form").submit(function(e) {
-
-      e.preventDefault(); // avoid to execute the actual submit of the form.
-
-      var form = $(this);
-      var url = form.attr('action');
-
-      $.ajax({
-      type: "POST",
-      url: url,
-      data: form.serialize(), // serializes the form's elements.
-      success: function(data)
-      {
-      alert("Your registration has been submitted successfully, thank you!"); // show response from the php script.
-      }
-      });
-      });
-
-
-      });
-
-      function parseOrZero(s) {
-          return parseInt(s) || 0;
-      }
-      
-      function recalculate() {
-          var accommodationCost = document.getElementById('accommodation-cost');
-          var accommodationNumAdults = document.getElementById('accommodation-num-adults');
-          var accommodationNumChildren = document.getElementById('accommodation-num-children');
-          var accommodationCostValue = (30*parseOrZero(accommodationNumChildren.value) + 65*parseOrZero(accommodationNumAdults.value));
-          accommodationCost.value = "£" + accommodationCostValue;
-      
-          var workshopTotal = document.getElementById('workshop-total');
-          var workshopNumAdults = document.getElementById('workshop-num-adults');
-          var workshopNumCouples = document.getElementById('workshop-num-couples');
-          var donation = document.getElementById('donation');
-          var workshopTotalValue = 110*parseOrZero(workshopNumAdults.value) + 180*parseOrZero(workshopNumCouples.value) + parseOrZero(donation.value);
-
-          workshopTotal.value = "£" + workshopTotalValue;
-          var total = document.getElementById('total');
-          total.value="£" + (accommodationCostValue + workshopTotalValue);
-      }
-    </script>
   </head>
   <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">Sufi
-          Healing Workshop</a> <button class="navbar-toggler navbar-toggler-right"
+      <div class="container"> <a class="navbar-brand
+      js-scroll-trigger" href="#page-top">Shadhuli Community UK</a> <button class="navbar-toggler navbar-toggler-right"
 
           type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
 
@@ -79,10 +32,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#timedate">Time & Date</a>
-            <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#location">Location</a>
-            <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+            <li class="nav-item"> <a class="nav-link
+            js-scroll-trigger" href="#about">Guide</a>
+            <li class="nav-item"> <a class="nav-link
+            js-scroll-trigger" href="#community">Community</a>
+            <li class="nav-item"> <a class="nav-link
+            js-scroll-trigger" href="#register">Contact</a>
             </li>
           </ul>
         </div>
@@ -94,15 +49,22 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 mx-auto">
-              <h1 class="brand-heading">The Sufi Path of Healing</h1>
-              <p>Experience the transforming power of forgiveness and freedom from your past</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger"> <i class="fa fa-angle-double-down animated"></i>
-              </a> </div>
-          </div>
+              <h1 class="brand-heading">Shadhuli Community in the UK</h1>
+              <p><i>Beloved, in the Name of God, look with the Eye of
+              the heart and don't look back. Understand with the
+              Eye of the Hearing of God. Listen with God, that your
+              hearing may be merged with the Hearing of God. See with
+              God and His Name will come to you. Then you will hear
+		  with the Ear of God and see with the Eye of God.</i></p>
+	      <p align="right">Sidi Muhammad Saʿeed al-Jamal ar-Rifaʿi ash-Shadhuli</p>
+              <!-- <p align="center"><a href="#about" class="btn btn-circle js-scroll-trigger"> <i class="fa fa-angle-double-down animated"></i> -->
+              <a href="#about" class="btn btn-sh">Learn more</a>
+	    </div>
+	  </div>
         </div>
       </div>
     </header>
-    <!-- About Section -->
+
     <section id="about" class="content-section how-it-works-section">
       <div class="container">
         <!-- <div class="row"> -->
@@ -112,413 +74,65 @@
         <!-- </div> -->
         <div class="row">
           <div class="col">
-            <h2>About the Workshop</h2>
+            <h2>About the Guide</h2>
+	    <div class="float-left">
+	      <div><img src="img/sidi.jpg" style="margin: 0 20px 20px 0" width="520"></div>
+	      <div><img src="img/sidi-books.jpg" style="margin: 0 20px 20px 0" width="520"></div>
+	    </div>
 
-	    <p>How much is our happiness and well-being determined by
-	      the quality of relationships in our lives!</p>
-
-	    <p>Think about it: whenever any relationship in our lives is
-	      characterised by separation, judgment, distrust, fear or
-	      anger, the impact on our hearts, our quality of life and
-	      even our health can be quite detrimental.</p>
-
-	    <p> Conversely, relationships characterized by honesty, love,
-	      trust and generosity of spirit can create within us
-	      extraordinary levels of well-being that we didn&#39;t even think
-	      possible.</p>
-		  
-	    <p>When we learn to let go and fully forgive ourselves, others, 
-	      and God, and when we move past the stories about our past, 
-	      then we are free to bring our authenticity, generosity and 
-	      love into our relationships.</p>
-		    
-            <p>From the Sufi perspective, love is our natural
-	      state. The key to living in that state lies in knowing your own heart
-	      deeply: how to “guard” what enters your heart; how to free your heart
-	      from burdens and distortions; how to receive “divine” love within the
-	      inner realms of your heart.</p>
-            <p>For this workshop we’ve chosen to focus on two practical areas of healing we’ve found to be
-	      essential for establishing loving, peaceful and fulfilling relationships with anyone in your life:
-	      <ul>
-		<li>Transforming your “story”
-		<li>Living in true forgiveness
-	      </ul>
+	    <p>Sidi Muhammad Saʿeed al-Jamal ar-Rifaʿi ash-Shadhuli was a
+	    Shaykh in the Shadhuli Tariqah and an imam and teacher at
+	    al-Aqsa mosque. He was a mufti in the Shariʿah courts of
+	    Jerusalem and was qualified in the four main Sunni schools
+	      of fiqh as well as the Jaʿfari school.</p>
+	    <p>He is the author of over forty books on Sufism, Tafsir,
+	    Prophetic Medicine and Spiritual Healing, including <i>He
+	    Who Knows Himself Knows His Lord</i> and <i>The Music of
+		the Soul</i>.</p>
+	    <p>He was well known for his melodic singing voice, and
+	    could occasionally be heard on Palestinian radio. He is
+	    the composer of many Qasa'id, including <i>Anta
+		Nuskhatu-l-Akwan</i> and <i>an-Nay Ilahi</i>.
+	    <p>He was also known for his generous and loving nature,
+	      his kindness to children, and his severity with those
+	      who mistreated women. He gave time and love to everyone,
+	      male and female, young and old, black and white.</p>
 	    </p>
-
-	    <h2>Transforming Your Story</h2>
-
-	    
-	    <p>Have you ever noticed the story you tell yourself repeatedly about who you are, and who you
-	      aren’t? Our story emerges out of all the interpretations we make about ourselves and others in
-	      a valiant effort to “understand” and create meaning out of all the disappointments and
-	      difficulties we’ve faced. Over time, unfortunately, we decide our story carries the “truth” about
-	      ourselves with devastating consequences to all our relationships and especially to our own
-	      heart.</p>
-
-
-
-	    <p>In this workshop, you’ll have a golden opportunity to wash away whatever in your story no
-	      longer serves you and to step into a new “story” that emerges organically from your own spirit.
-	      That story carries the love and beauty of who you truly are. Get ready to do this deep work in a
-	      uniquely fun, supportive and profoundly effective way.</p>
-
-	    <h2>Forgiveness Healing</h2>
-
-	    <p>Have you ever noticed how difficult it can be to truly forgive others? Further, have you noticed
-	      how burdened your heart becomes when you hang on to grudges, hurts and judgments? We
-	      all do it. Unfortunately, our unwillingness or inability to forgive completely gradually eats away
-	      at our hearts and erodes the fabric of love and compassion we feel for ourselves and others.
-	      Forgiveness work can be most challenging but it is also the doorway to profound healing,
-	      blessings and liberation. During our weekend together we will walk you through the specific
-	      steps and skills that facilitate complete forgiveness and profound transformation in your heart
-	      and spirit.</p>
-
-	    <p>Throughout these teachings we will share with you the Sufi understandings of how to care for
-	      your own heart and how to receive divine love, peace and healing directly into your heart.</p>
-
-	    <h2>Our Invitation</h2>
-
-	    <p>We invite you to join us and other like-minded and like-spirited participants for a weekend
-	      dedicated to your own healing and transformation, offered in an atmosphere of care, love and
-	      fun.</p>
-
-	    <p>Our time will be divided between didactic overview with
-	    class demonstrations, group healing processes, individual
-	    coaching (when requested), and private time for
-	    integration and reflection. Traditional Sufi practices
-	    that promote joy and celebration will be liberally
-	    sprinkled into the mix!</p>
-	    
-	    <p>There is no need to have any previous experience with
-	    Sufism. We all have “relationships” in our life that call
-	    for either healing or enrichment. Just come as you are,
-	    with what you care about. This is an open-ended,
-	    heart-based teaching.</p>
-
-	    <h2>Testimonials</h2>
-
-	                  <p> Here is some of the feedback we received from previous
-		workshops:</p>
-              <p><em> </em><i><em>"I have done a number of similar workshops and
-                    courses in the past but these workshops far outweigh any
-                    previous experiences with regards the quality of the teaching,
-                    the depth of material, the amount of one-on-one time when
-                    necessary with the coaches/support and the amount of love and
-                    respect from not only the course leaders, but the participants
-                    as well." </em></i><em></em>- Z.M., Musician<i><br>
-              </i></p>
-              <p><i>"I appreciated most the atmosphere of love and kindness that
-                  pervaded the whole weekend. I felt safe to explore."</i> - F.M.,
-		Writer, Mediator, Foster Carer </p>
-              <p> <i>"I really felt elated after I left the workshop and it
-                  really felt like home.”</i> - N.I., Dentist</p>
-              <p> <i>"The teachers are excellent and hold a very safe, nurturing
-                  space for participants to drop deeply into themselves. They have
-                  a wealth of experience and are able to transmit rich and
-                  inspired teachings and give support. I will definitely attend
-                  any future events. I loved it."</i> - M.P., Retired Nurse</p>
-              <p> <i>"I absolutely loved that we were such a diverse group."</i>
-		- S.P., Antenatal Teacher and Doula</p>
-              <p><em>"Nura and Wadude are incredibly sensitive and perceptive.
-                  They take you on a journey to understand yourself better and to
-                  make deeper connections with those around you. The teachings are
-                  very simple and yet at the same time deep and profound. They are
-                  also very human and funny. Where there is love there is laughter
-                  and where there is love there is self discovery."</em> - K.M.,
-		Small Business Owner</p>
-              <p><em>"What I appreciated most about Nura and Wadude’s teaching was
-                  the humility and lack of ego, the humour and humanity, and their
-                  honesty and sincerity." - anonymous</em></p>
-
-
-	    <section id="timedate" class="content-section">
-	      <h2>Dates &amp; Times</h2>
-	      <ul>
-		<li>Starts Friday, March 6, 2020 at 6:00pm with dinner
-		<li>Ends Sunday, March 8, 2020 at 5:00pm
-	      </ul>
-	    </section>
-
-	    <section id="location" class="content-section">
-              <h2>Location</h2>
-
-              <p>Markfield Conference Centre <br>
-		Ratby Lane, Markfield, <br>
-		Leicestershire LE67 9SY </p>
-              <p>Markfield is a retreat centre in the English countryside. It
-		offers a space that is very conducive to learning &amp; healing.</p>
-
-              <h2>Costs</h2>
-              <p><strong>Room &amp; Board:</strong> 
-	        <br>£65/adult
-		<br>£30/child (aged 3-11y)
-		<br>This covers 2 nights stay and all meals (Friday dinner
-		until Sunday lunch inclusive)</p>
-
-	      <p><b>Tuition:</b>
-		<br>Early bird price (full payment due 31st January 2020):  £110
-		<br>Standard price: £140
-		<br>Early bird price for couples (full payment due 31st January 2020): £180/couple
-		<br>Standard price for couples: £215/couple
-		<br>We have kept the tuition fees as low as 
-		possible to ensure maximum participation. We welcome any 
-		further extra donations you would like to provide, which 
-		will be used to support those who would otherwise be unable 
-		to attend the workshop.</p>
-
-	      <p>Limited scholarship and work-study positions are
-		available on a first-come, first-served basis.  No one
-		will be turned away for lack of funds! Please
-		contact <a href="mailto:info@sufihealing.one">info@sufihealing.one</a>
-		with questions or for more information.</p>
-
-	      <p>It’s likely this event will sell out, so please register now to reserve your place.
-		<b>A £65 deposit per adult will be due upon registration.</b></p>
-
-	      <p>Full payment is due by February 21st, 2020, 2 weeks
-		before the workshop.  Places on the workshop are
-		refundable up to 2 weeks before the start date (a £25
-		admin fee applies). No refunds are available after
-		February 21st 2020, however in some circumstances it
-		may be possible to transfer your place to another
-		person. Please email
-		<a href="mailto:info@sufihealing.one">info@sufihealing.one</a>.</p>
-
-	      <h2>Food</h2>
-              <p>Meals provided: Friday dinner, Saturday breakfast,
-		lunch &amp;
- dinner, Sunday breakfast &amp; lunch. Food
-		will be simple &amp;
- halal. Please be aware that
-		Markfield is a simple venue with limited capacity to
-		accommodate dietary requests so it may be necessary to
-		bring some of your own food items.</p>
-              <h2>Accommodation</h2>
-              <p>Dorm-style accommodation with shared toilet facilities.
-		Most rooms are singles, limited doubles available on first-
-		come, first-served basis. Free parking available on site.</p>
-              <h2>Non-participant children</h2>
-              <p>If you want to attend the workshop and will have children with
-		you who won't be attending, please let us know during registration
-		and we can arrange childcare. There will be an additional fee for
-		this.</p>
-	    </section>
-
-            <h2>Our Teachers</h2>
-            <p>Both of our teachers have studied and worked under the guidance of Shaykh
-	      Sidi Muhammad al Jamal ar Rifi’a for many years. He was a spiritual guide from the
-	      Shadhuli Tariqa and Imam at the al-Aqsa masjid in Jerusalem. To find more about his
-	      teachings and books he’s published visit: <a href="http://www.sufimaster.org" style="color:blue;">www.sufimaster.org</a></p>
-            <div class="float-left"> <img src="img/nura.jpg" style="margin: 0 20px 20px 0"
-
-                width="320"> </div>
-            <p>Nura Laird, M.Ed. is a former Dean, a faculty member, and
-              co-chair of the Department of Peacemaking at The University of
-              Spiritual Healing and Sufism (USHS), which was developed under the
-              guidance of the Shaykh. Having been a student of healing and
-              Sufism since 1977, she has extensive training and experience in
-              community and family mediation and in teaching and counseling
-              children and adults. Since graduating from the Energy Mastery
-              School in 1992, Nura has worked professionally as a spiritual
-              counselor, teacher and seminar leader internationally.</p>
-            <p>Nura is especially inspired to help restore the real love and
-              peace to families, and to guide her clients and students to bring
-              more love and peace into our world. Working with individuals and
-              groups, she provides a safe, gentle, holy space in which to learn,
-              transform, and heal.</p>
-            <div class="float-left"> <img src="img/wadude.jpg" style="margin: 0 20px 20px 0"
-
-                width="320"> </div>
-            <p>John Wadude Laird, MD was a close and trusted student of the
-              Shaykh for twenty years helping to spread the message of peace,
-              love and mercy throughout the United States and in Mexico. Under
-              Sidi’s direction, Dr. Laird was a co-founder of the University of
-              Spiritual Healing &amp; Sufism in 1990 and of the Shafiyy
-              Institute in 2014, which incorporates Sufi Prophetic healing with
-              evidence-based, integrative therapeutics in order to care for
-              patients with cancer and their families. Through his activities as
-              a teacher and healer, Dr. Laird strives to radiate the love of God
-              to everyone he encounters. His passion and strength have inspired
-              students to trust God fully and to give their lives in service to
-              all who need healing and love.</p>
-            <p></p>
-            <h2>Questions</h2>
-            <p>For questions about our course, logistics or anything
-              else,
- please don't hesitate to
-              contact <a href="mailto:info@sufihealing.one">info@sufihealing.one</a></p>
-          </div>
-        </div>
-        <!-- <div class="row"> -->
-        <!--   <div class="col text-center"> -->
-        <!-- 	  <a href="#register" class="js-scroll-trigger btn btn-lg btn-primary"> -->
-        <!-- 	    Sign Up -->
-        <!-- 	  </a> -->
-        <!--   </div> -->
-        <!-- </div> --> </div>
-    </section>
-    <section id="register">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center"> <br>
-            <h2>Registration</h2>
-            <p><i>We'll never share your details with anyone else</i></p>
-          </div>
-        </div>
-        <!-- <div class="row"> -->
-        <!--   <div class="col"> -->
-        <form action="https://hooks.zapier.com/hooks/catch/6343360/ott7ghy/"
-          id="registration-form" method="POST" oninput="recalculate()">
-          <div class="form-group row">
-            <div class="col-lg-6 mx-auto"> <label for="user-name">Name</label>
-	      <input class="form-control" id="user-name" name="name"
-
-                placeholder="Enter name"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-lg-6 mx-auto"> <label for="user-email">Email
-                address</label> <input class="form-control" id="user-email" name="email"
-
-                placeholder="Enter email" type="email"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-lg-6 mx-auto"> <label for="example-tel-input">Telephone</label>
-              <input class="form-control" id="example-tel-input" name="telephone"
-
-                placeholder="Enter phone number" type="tel"> </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 mx-auto">
-              <div class="form-check"> <label class="form-check-label"> <input
-
-                    name="accommodation-required" class="form-check-input" type="checkbox">
-                  Accommodation required </label> </div>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="accommodation-num-adults" class="col-4 col-form-label">Number
-              of adults</label>
-            <div class="col-2"> <input class="form-control"  name="accommodationNumAdults"
-
-                id="accommodation-num-adults" type="number" min="0"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="accommodation-num-children" class="col-4 col-form-label">Number
-              of children (aged 3-11)</label>
-            <div class="col-2"> <input class="form-control"  name="accommodationNumChildren"
-
-                id="accommodation-num-children" type="number" min="0"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="accommodation-cost" class="col-4 col-form-label">Total cost of accommodation:</label>
-            <div class="col-2"><input readonly="readonly" value="£0" name="accommodationCost"
-                id="accommodation-cost" type="text"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col"> <br>
-              <b>To be paid for tuition:</b> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="workshop-num-adults" class="col-4 col-form-label">Number
-              of adults</label>
-            <div class="col-2"> <input class="form-control"  name="Number of adults attending workshop"
-
-                id="workshop-num-adults" type="number" min="0"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="workshop-num-couples" class="col-4 col-form-label">Number
-              of couples</label>
-            <div class="col-2"> <input class="form-control"  name="Number of couples attending workshop"
-
-                id="workshop-num-couples" type="number" min="0"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="donation" class="col-4 col-form-label">Additional donation: £</label>
-            <div class="col-2"> <input class="form-control"  name="Additional donation"
-
-                id="donation" type="number" min="0"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="workshop-total" class="col-4 col-form-label">Total for tuition: </label>
-            <div class="col-2"> <input readonly="readonly" value="£0" name="workshopTotal"
-                id="workshop-total" type="text"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <label for="total" class="col-4 col-form-label">TOTAL (accommodation & tuition): </label>
-            <div class="col-2"> <input readonly="readonly" value="£0" name="total"
-                id="total" type="text"> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="full-names-workshop">Full name(s)
-                of workshop participants</label> <textarea class="form-control"
-
-name="Full names of workshop participants" id="full-names-workshop"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="full-names-children">For
-                any non-attending children who will be on-site, please
-                list name(s), date of birth and any allergies or
-                dietary
-                restrictions.</label> <textarea class="form-control"
-
-                name="Names of non-attending children"
-                id="full-names-children"></textarea> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="special-requests">Any other special
-                requests (e.g. dietary restrictions)</label> <textarea class="form-control"
-
-name="Special requests" id="special-requests"></textarea> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="additional-notes">Any additional notes</label> <textarea class="form-control"
-
-name="Additional notes" id="additional-notes"></textarea> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="how-did-you-hear"> How did you hear about us?</label> <textarea class="form-control"
-
-name="How did you hear about us?" id="how-did-you-hear"></textarea> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-3"></div>
-            <div class="col-6"> <label for="final-hidden-field" style="display:none;">Final
-                Hidden Field</label> <textarea class="form-control" name="Final hidden field"
-
-id="final-hidden-field" style="display:none;"></textarea> </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-6 mx-auto">
-              <p>Once we receive your registration, we will be in contact to
-                provide information about payment.</p>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col text-center"> <button type="submit" class="btn btn-primary">Register</button>
-            </div>
-          </div>
-        </form>
+	  </div>
+	</div>
       </div>
     </section>
+
+    <section id="community" class="content-section how-it-works-section">
+      <div class="container">
+        <!-- <div class="row"> -->
+        <!--   <div class="col text-center"> -->
+        <!--     <h2>[Placeholder for info about the workshop itself]</h2> -->
+        <!--   </div> -->
+        <!-- </div> -->
+        <div class="row">
+          <div class="col">
+            <h2>The UK Community</h2>
+	    <div class="float-left">
+	      <div><img src="img/fuqara.jpg" style="margin: 0 20px 20px 0" width="520"></div>
+	    </div>
+
+	    <p>
+	      There is a small but active community in the UK. We hold
+	      regular dhikr and reading group sessions.
+	    </p>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+
+
     <!-- Footer -->
     <footer class="how-it-works-section">
       <div class="container text-center">
-        <p>Copyright © 2019</p>
+        <p>Copyright © 2021 The Shadhdhuliyya Trust, registered
+        charity number 1135335</p>
       </div>
     </footer>
     <!-- Bootstrap core JavaScript -->
